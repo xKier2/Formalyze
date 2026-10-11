@@ -2,6 +2,8 @@
 
 Goal: portfolio / learning project. Each phase should leave the app in a runnable state.
 
+Tick checkboxes and resolve open questions as work lands (see "Keeping docs up to date" in [CLAUDE.md](../CLAUDE.md)). Related: [ARCHITECTURE.md](ARCHITECTURE.md), [EXERCISES.md](EXERCISES.md).
+
 ## Phase 0: Foundation
 - [x] Compose project scaffold, CodeQL workflow
 - [ ] Add CameraX + MediaPipe Tasks Vision + OpenCV to the version catalog
