@@ -1,6 +1,6 @@
 # Architecture
 
-Status: **planned**. The repo currently contains only the Compose project template. This document describes the intended design; update it as the code lands.
+Status: **planned**. The repo currently contains only the Compose project template. This document describes the intended design; update it as the code lands (see "Keeping docs up to date" in [CLAUDE.md](../CLAUDE.md)). Related: [EXERCISES.md](EXERCISES.md), [ROADMAP.md](ROADMAP.md).
 
 ## Pipeline
 

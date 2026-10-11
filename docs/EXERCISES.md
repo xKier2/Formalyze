@@ -1,6 +1,6 @@
 # Exercises
 
-v1 supports three exercises, **selected manually by the user**. Auto-detection is a later phase (see [ROADMAP.md](ROADMAP.md)).
+v1 supports three exercises, **selected manually by the user**. Auto-detection is a later phase (see [ROADMAP.md](ROADMAP.md)). Update this file whenever a threshold, cue or rule changes in code (see "Keeping docs up to date" in [CLAUDE.md](../CLAUDE.md)). Related: [ARCHITECTURE.md](ARCHITECTURE.md).
 
 > **All thresholds below are provisional starting points.** They are common coaching ranges, not validated values. Tune them against real recordings, and keep them in one config location in code. Formalyze is a training aid, not medical advice.
 
