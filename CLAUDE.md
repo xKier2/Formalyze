@@ -73,6 +73,7 @@ Manual exercise selection: **Squat, Deadlift, Bicep Curl**. Auto-detecting the e
 
 ## Docs
 
+- [README.md](README.md): project introduction, features, setup, and documentation links
 - [AGENTS.md](AGENTS.md): Codex workflow and handoff blueprint; both assistants use the shared project docs
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): pipeline, modules, threading
 - [docs/EXERCISES.md](docs/EXERCISES.md): per-exercise metrics, thresholds, rep phases

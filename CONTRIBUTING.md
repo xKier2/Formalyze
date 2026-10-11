@@ -12,6 +12,7 @@ This applies to everyone and everything working in the repo, including AI coding
 
 ## Working on the code
 
+- Read [README.md](README.md) for the project introduction, features, and setup instructions.
 - Codex starts with [AGENTS.md](AGENTS.md), its workflow and handoff blueprint. Claude starts with [CLAUDE.md](CLAUDE.md); both use the same shared project docs.
 - The owner prompts each assistant separately. Inspect the working tree before editing, preserve existing unrelated changes, and stay within the requested task. Do not create branches, worktrees, or pull requests unless requested.
 - Read [CLAUDE.md](CLAUDE.md) for build commands and conventions, and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the pipeline fits together.
