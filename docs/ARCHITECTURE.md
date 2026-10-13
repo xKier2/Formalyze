@@ -1,6 +1,10 @@
 # Architecture
 
+<<<<<<< HEAD
 Status: **in progress**. The live camera preview is implemented (see [Camera](#camera-live-preview)). Everything after the camera is still planned. This document describes the intended design; update it as the code lands (see "Keeping docs up to date" in [CLAUDE.md](../CLAUDE.md)). Related: [EXERCISES.md](EXERCISES.md), [ROADMAP.md](ROADMAP.md).
+=======
+Status: **planned**. The repo currently contains only the Compose project template. This document describes the intended design; update it as the code lands (see "Keeping docs up to date" in [CLAUDE.md](../CLAUDE.md)). Related: [EXERCISES.md](EXERCISES.md), [ROADMAP.md](ROADMAP.md).
+>>>>>>> e3eb9be7e315e5fa5868306f87c4ef12df0066df
 
 ## Pipeline
 
