@@ -16,7 +16,8 @@ Name: **Formalyze** (package `res.formalyze`). "FitForm" was an earlier working 
 - Kotlin, native Android, Jetpack Compose UI (Material 3). `minSdk 24`, `compileSdk/targetSdk 37`.
 - Google MediaPipe Pose Landmarker (Tasks Vision): 33 landmarks, runs on-device.
 - OpenCV (Android) for matrix operations and image processing.
-- CameraX for camera frames (planned).
+- CameraX 1.6.2 (`camera-core`, `camera-camera2`, `camera-lifecycle`, `camera-compose`) plus `lifecycle-runtime-compose` 2.9.4, for the live preview (implemented, device check pending). Design in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md#camera-live-preview).
+- Planned pins when added: MediaPipe `tasks-vision` 1.1.0, OpenCV `org.opencv:opencv` 4.13.0 (stay on 4.x until 5.0's Android API is checked).
 - Gradle Kotlin DSL with version catalog in `gradle/libs.versions.toml`. Add dependencies there, not inline.
 
 ## Commands
@@ -31,7 +32,7 @@ On Windows PowerShell use `.\gradlew.bat`. Camera/pose features need a real devi
 
 ## Layout
 
-Source is under `app/src/main/java/res/formalyze/` (note: path is `res/formalyze`, matching the package). Currently only the Compose template exists (`MainActivity`, `ui/theme`). Planned structure and data flow are in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Source is under `app/src/main/java/res/formalyze/` (note: path is `res/formalyze`, matching the package). What exists now: `MainActivity` (opens the camera), `camera/` (CameraX session and settings), `ui/camera/` (permission gate, camera screen), `ui/theme`. Camera tuning lives only in `camera/CameraSettings.kt`. Planned structure and data flow are in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Architecture rules
 

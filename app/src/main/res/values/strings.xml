@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Formalyze</string>
+
+    <string name="camera_permission_title">Camera access needed</string>
+    <string name="camera_permission_message">Formalyze uses your camera to watch your form while you train. Everything is processed on your phone; no video leaves the device.</string>
+    <string name="camera_permission_declined_message">Without the camera, Formalyze can\'t see your movement. You can allow it now, or turn it on in the app\'s settings.</string>
+    <string name="camera_permission_allow">Allow camera</string>
+    <string name="camera_permission_try_again">Try again</string>
+    <string name="camera_permission_open_settings">Open settings</string>
+
+    <string name="camera_switch_lens">Switch camera</string>
+    <string name="camera_not_found">No camera was found on this device.</string>
 </resources>
