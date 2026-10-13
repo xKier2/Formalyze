@@ -6,12 +6,17 @@ Tick checkboxes and resolve open questions as work lands (see "Keeping docs up t
 
 ## Phase 0: Foundation
 - [x] Compose project scaffold, CodeQL workflow
-- [ ] Add CameraX + MediaPipe Tasks Vision + OpenCV to the version catalog
-- [ ] Camera permission flow
+- [x] Add CameraX to the version catalog (1.6.2)
+- [ ] Add MediaPipe Tasks Vision (1.1.0) + OpenCV (4.13.0, 4.x preferred over 5.0) to the version catalog
+- [x] Camera permission flow (device check pending)
 - [ ] Bundle a pose model (`pose_landmarker_lite` or `full`) in `assets/`; document how to download it
 
 ## Phase 1: See the skeleton
-- [ ] Live camera preview in Compose
+- [x] Live camera preview in Compose (design in ARCHITECTURE.md "Camera"). Build, unit tests and lint pass; **all items below still need checking on a physical device**
+  - [x] Back camera default + switch to front (front mirrored)
+  - [x] Tap-to-focus, pinch-to-zoom
+  - [x] Preview stabilization when supported (falls back to off if the device rejects the combination)
+  - [x] Portrait + landscape
 - [ ] MediaPipe Pose Landmarker in LIVE_STREAM mode on a background executor
 - [ ] Show landmarks on the live feed (**rendering approach is an open decision**, see ARCHITECTURE.md)
 - [ ] Measure FPS / latency on a real mid-range device
